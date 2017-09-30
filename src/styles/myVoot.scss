@@ -1,0 +1,193 @@
+.my-voot {
+  padding-bottom: 10px;
+  .content-container {
+    height: 100%;
+  }
+  p {
+    color: #798993;
+    font-size: 12px;
+  }
+  .data-usage {
+    padding: 20px 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    margin: 10px;
+    text-align: initial;
+  }
+  .change-password {
+    padding: 20px 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    margin: 10px 10px 0;
+    text-align: initial;
+  }
+  .language-preference {
+    padding: 20px 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    margin: 10px 10px 0;
+    text-align: initial;
+    p {
+      color: #798993;
+    }
+    .languages{
+      margin: 0 20px;
+      li {
+        display: inline-block;
+        vertical-align: middle;
+        width: 30%;
+        margin: 3px;
+        text-align: center;
+        border-radius: 20px;
+        padding: 5px 0;
+       div {
+         overflow: hidden;
+         text-overflow: ellipsis;
+         white-space: nowrap;
+       }
+        span {
+          color: red;
+        }
+      }
+    }
+  }
+  .social-btn{
+    position: absolute;
+    width: 115px;
+    top: 38px;
+    display: inline;
+    left: 45%;
+    button {
+      border: 0;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      border-radius: 50%;
+      justify-content: center;
+      margin-right: 2px;
+    }
+    span {
+      text-align: left;
+      position: absolute;
+      width: 88px;
+      font-size: 12px;
+    }
+  }
+  .data-usage-button {
+    border: 1px solid #dbd8d8;
+    border-radius: 20px;
+    height: 40px;
+    display: table;
+    width: 88%;
+    width: calc(100% - 40px);
+    margin: 0 20px;
+    padding: 2px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    li {
+      width: 33%;
+      text-align: center;
+      height: 25px;
+      padding: 4px;
+      display: table-cell;
+      vertical-align: middle;
+      border-radius: 20px;
+      font-size: 11px;
+    }
+  }
+  .user-profile {
+    text-align: center;
+    background: #79786a;
+    color: #fff;
+    padding: 20px 0;
+    position: relative;
+    height: 260px;
+    overflow: hidden;
+    .text-danger {
+      margin-bottom: 0;
+      text-transform: none;
+    }
+    img {
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+    .background-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      margin: 0;
+      border-radius: 0;
+      filter: blur(40px);
+      -webkit-filter: blur(40px);
+      -moz-filter: blur(40px);
+      -ms-filter: blur(40px);
+      -o-filter: blur(40px);
+      filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='40');
+    }
+  }
+  .submit-button {
+    background: red;
+    border: none;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    margin: 10px 0 0;
+  }
+  .change-password {
+    position: relative;
+  }
+  .icon-right-thin {
+    color: #333;
+    position: absolute;
+    right: 20px;
+  }
+  .first-name, .last-name {
+    margin: 5px 0;
+    text-transform: capitalize;
+    input {
+      background: none;
+      border: 0;
+      border-bottom: 1px solid rgba(241, 241, 241, 0.65);
+      text-align: center;
+      width: 80%;
+      padding-bottom: 5px;
+    }
+  }
+  .email {
+    padding-top: 10px;
+    width: 100%;
+  }
+  .user-image {
+    display: inline-block;
+    position: relative;
+    a {
+      position: absolute;
+      bottom: 25px;
+      right: -11px;
+      background: white;
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+    }
+    .icon-camera {
+      font-size: 20px;
+      color: grey;
+      position: relative;
+      top: 5px;
+  }
+  }
+  .text-danger {
+    display: block;
+  }
+  .fixed-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+
+  .my-voot-shows-following-header{
+    //margin-bottom: 40px;
+  }
+}
+
+

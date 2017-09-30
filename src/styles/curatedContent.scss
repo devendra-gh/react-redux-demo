@@ -1,0 +1,33 @@
+.curated-content-page {
+
+  .item-detail {
+    height: 78px;
+  }
+  // Styling for view all page
+  .series-grid {
+    .card-holder {
+      position: relative;
+    }
+    .item-detail {
+      height: auto;
+    }
+  }
+  .tvSeries {
+    .item-detail {
+      height: 78px;
+    }
+  }
+  .grid-container {
+    padding: 20px 10px 5px;
+  }
+  .sbuName-section {
+    .sbuName {
+      text-transform: capitalize;
+    }
+  }
+  .no-play {
+    .play-btn {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,149 @@
+.search-page {
+  .image-title {
+    margin-left: 50px;
+    padding-left: 10px;
+    min-height: 50px;
+    display: table;
+    span {
+      display: table-cell;
+      vertical-align: middle;
+    }
+  }
+
+  .search-input {
+    position: relative;
+    border-bottom: 3px solid #ff254b;
+    span {
+      position: absolute;
+      top: 0;
+      width: 40px;
+      height: 40px;
+      display: block;
+      z-index: 1;
+      text-align: center;
+      line-height: 40px;
+    }
+    .search-icons {
+      left: 0;
+      i {
+        font-size: 18px;
+        color: #401f80;
+      }
+    }
+    .search-close {
+      right: 0;
+      i {
+        font-size: 15px;
+        color: #cccccc;
+      }
+    }
+    .form-control {
+      height: 40px;
+      padding: 5px 40px;
+      line-height: 30px;
+      color: #000;
+      border: 0 none;
+      font-size: 14px;
+      text-transform: capitalize;
+    }
+  }
+
+  .kids-search-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    vertical-align: top;
+    background-image: url('../public/pattern-green.png');
+    background-color: #01c7a4;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+}
+
+.search-type {
+  display: block;
+  font-size: 10px;
+  color: #798993;
+  font-weight: 400;
+}
+
+.search-block {
+  padding: 10px;
+  background-color: #fff;
+  &.gaps {
+    padding: 10px 0;
+  }
+}
+
+.search-title {
+  display: block;
+  font-size: 13px;
+  color: #272c31;
+  font-weight: 400;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.search-list {
+  display: block;
+  font-size: 11px;
+  color: #798993;
+}
+
+.search-result {
+  li {
+    padding: 15px 0;
+    border-bottom: 1px solid #e6e6e6;
+    .search-item {
+      position: relative;
+    }
+  }
+}
+
+.search-landing {
+  padding: 10px;
+  position: relative;
+  border-top: 3px solid #ff254b;
+  .search-item {
+    position: relative;
+    figure {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  }
+  .search-content {
+    padding-left: 55px;
+    min-height: 25px;
+    .search-title {
+      line-height: 1;
+      padding: 0 0 5px 0;
+      margin-top: -1px;
+    }
+    .search-list {
+      line-height: 0.8;
+    }
+  }
+}
+
+.search-inner-section{
+  margin-bottom: 35px;
+}
+.search-inner-section:last-of-type{
+  margin-bottom: 5px;
+}
+
+.search-category {
+  padding-bottom: 10px;
+}
+
+.search-result-list {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+

@@ -1,0 +1,136 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('icomoon.eot?mm8llq');
+  src:  url('icomoon.eot?mm8llq#iefix') format('embedded-opentype'),
+  url('icomoon.ttf?mm8llq') format('truetype'),
+  url('icomoon.woff?mm8llq') format('woff'),
+  url('icomoon.svg?mm8llq#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  color: #fff;
+  vertical-align: middle;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bell:before {
+  content: "\e900";
+}
+.icon-camera:before {
+  content: "\e901";
+}
+.icon-channel:before {
+  content: "\e902";
+}
+.icon-cross:before {
+  content: "\e903";
+}
+.icon-down:before {
+  content: "\e904";
+}
+.icon-download:before {
+  content: "\e905";
+}
+.icon-edit:before {
+  content: "\e906";
+}
+.icon-fav-empty:before {
+  content: "\e907";
+}
+.icon-fav-fill:before {
+  content: "\e908";
+}
+.icon-fb:before, .icon-image-Facebook:before {
+  content: "\e909";
+}
+.icon-filter:before {
+  content: "\e90a";
+}
+.icon-google:before, .icon-image-Google:before {
+  content: "\e90b";
+}
+.icon-home:before {
+  content: "\e90c";
+}
+.icon-kids:before {
+  content: "\e90d";
+}
+.icon-left:before {
+  content: "\e90e";
+}
+.icon-left-thin:before {
+  content: "\e90f";
+}
+.icon-login:before {
+  content: "\e910";
+}
+.icon-menu:before {
+  content: "\e911";
+}
+.icon-movie:before {
+  content: "\e912";
+}
+.icon-play:before {
+  content: "\e913";
+}
+.icon-play-thin:before {
+  content: "\e914";
+}
+.icon-profile:before {
+  content: "\e915";
+}
+.icon-profile-thin:before {
+  content: "\e916";
+}
+.icon-promo:before {
+  content: "\e917";
+}
+.icon-right:before {
+  content: "\e918";
+}
+.icon-right-thin:before {
+  content: "\e919";
+}
+.icon-search:before {
+  content: "\e91a";
+}
+.icon-setting:before {
+  content: "\e91b";
+}
+.icon-share:before {
+  content: "\e91c";
+}
+.icon-shows:before {
+  content: "\e91d";
+}
+.icon-shows-thin:before {
+  content: "\e91e";
+}
+.icon-shutdown:before {
+  content: "\e91f";
+}
+.icon-star:before {
+  content: "\e920";
+}
+.icon-tick:before {
+  content: "\e921";
+}
+.icon-twitter:before {
+  content: "\e922";
+}
+.icon-up:before {
+  content: "\e923";
+}
+.icon-logo:before {
+  content: "\e924";
+}

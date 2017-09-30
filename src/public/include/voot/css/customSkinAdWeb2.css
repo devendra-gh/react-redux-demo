@@ -1,0 +1,62 @@
+body .mobile.adplay-state .largePlayBtn{display: none !important}
+.largePlayBtn{display: none !important;}
+.mobile a.largePlayBtn {
+  background-image: url("../images/play-button.png") !important;
+  width: 45px !important;
+  height: 45px !important;
+  background-size: initial !important;
+}
+
+.start-state .controlBarContainer{ display: none!important}
+
+:root div.comp.volumeControl {margin-left:10%;}
+_:-ms-fullscreen, :root div.comp.volumeControl {margin-left:10%!important;}
+
+button#muteBtn{
+  background-image: url("../images/volume.svg");
+}
+div.comp.volumeControl.display-medium.horizontal.open button#muteBtn{
+  background-image: url("../images/volume-hover.svg");
+}
+/*body button.icon-volume-mute{background-image: url("../volume-mute.svg") !important;}*/
+/*div.comp.volumeControl.display-medium.horizontal.open button.icon-volume-mute{background-image: url("../volume-mute-hover.svg") !important;}*/
+button#muteBtn, div.comp.volumeControl.display-medium.horizontal.open button#muteBtn{
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 28px;
+}
+.topBarContainer.open .titleLabel {
+  padding: 15px 0 16px 10px !important;
+}
+/* Responsive style */
+@media (max-width: 520px) {
+  .titleLabel {font-size: 15px !important;width: 95% !important;}
+  .controlBarContainer {height: 40px !important;}
+  body .topBarContainer.open {bottom: 43px !important;}
+  .controlsContainer {height: 40px !important;}
+  .playPauseBtn.icon-play, .playPauseBtn.icon-pause, .playPauseBtn.icon-replay {margin: 9px 0 0 20px !important;}
+  .volumeControl {margin-left: 20px !important;top: 17px;}
+  .controlBarContainer .timers {top: 0px !important;}
+  button.icon-expand, button.icon-contract {margin: 9px 5px 0 0px;}
+  div.topBarContainer{height: 55px !important;}
+
+}
+
+div.topBarContainer{display: none !important;}
+.fullscreen div.topBarContainer{display: block !important;}
+@media (max-width: 767px) {
+  .fullscreen div.topBarContainer{display: none !important;}
+
+}
+
+@media (max-width: 1024px) {
+  .controlBarContainer.open {
+    bottom: 7px !important;
+  }
+
+  body .topBarContainer.open {
+    bottom: 40px !important;
+  }
+
+}
+

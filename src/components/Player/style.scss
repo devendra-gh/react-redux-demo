@@ -1,0 +1,25 @@
+
+.hiddenDiv{
+  display: none;
+}
+
+
+.movie-video, .shows-video, .kids-video {
+  border-top: 3px solid #ff254b;
+  .section {
+    /*background-color: #f2f2f2;*/
+  }
+  .tray-heading {
+    border-color: #fe9400;
+  }
+}
+
+.register-link {
+  padding-left: 3px;
+  color: #ff254b;
+}
+.forgot-password-link {
+  text-align: center;
+}
+
+

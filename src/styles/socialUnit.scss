@@ -1,0 +1,43 @@
+.social-unit {
+  background: #f2f2f2;
+  padding: 13px;
+  margin-bottom: 20px;
+  li {
+    display: inline-block;
+    width: 25%;
+    height: 40px;
+    text-align: center;
+    color: #909da5;
+    font-size: 12px;
+  }
+  li + li {
+    border-left: 1px solid #ececec;
+  }
+  i {
+    display: block;
+    font-size: 15px;
+    padding-bottom: 6px;
+    color: #909da5;
+  }
+  .social-unit__follow {
+    .icon-fav-fill {
+      color: #ff0e75;
+    }
+  }
+}
+.follow-module, .follow-user-module {
+  i {
+    font-size: 15px;
+    color: #909da5;
+  }
+  .icon-fav-fill {
+    color: #ff0e75;
+  }
+}
+
+.follow-user-module {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+

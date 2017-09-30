@@ -1,0 +1,165 @@
+button {
+  cursor: pointer;
+}
+
+.view-all {
+  position: absolute;
+  bottom: 0;
+  margin-top: -13px;
+  right: 0;
+  border-radius: 15px;
+  display: inline-block;
+  color: #fff;
+  background-color: #ff254b;
+  font-size: 10px;
+  height: 22px;
+  a {
+    display: block;
+  }
+  .ripple {
+    padding: 4px 10px;
+    line-height: 17px;
+    vertical-align: top;
+  }
+  span {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 10px;
+    color: #fff;
+    line-height: 1.5;
+  }
+  i {
+    position: relative;
+    top: 0;
+    font-size: 8px;
+  }
+  &:active {
+    background-color: #cc1e3c;
+  }
+}
+
+.play-btn {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-size: 10px;
+  display: block;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.mastHead, .channelMastHead, .moviesHeroAsset {
+  .play-btn {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+  }
+}
+
+.btn-default, .btn-danger {
+  padding: 8px 25px;
+  display: inline-block;
+  border-radius: 20px;
+  border: 0;
+  font-size: 13px;
+}
+
+.forgotButton {
+  padding: 8px 25px;
+  display: inline-block;
+  border-radius: 20px;
+  border: 0;
+  font-size: 13px;
+  color: #fff;
+  background-color: #ff244a;
+}
+
+.btn-default {
+  color: #798993;
+  background-color: #f2f2f2;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #ff244a;
+  padding: 6px 25px;
+  font-size: 13px;
+}
+
+.blue-btn {
+  display: block;
+  padding: 3px 5px;
+  color: #491da0;
+  font-size: 11px;
+  text-align: center;
+  border-radius: 40px;
+  border: 1px solid #491da0;
+  background-color: #fff;
+}
+
+.language-btn {
+  display: block;
+  padding: 5px;
+  font-size: 10px;
+  text-align: center;
+  border-radius: 40px;
+  background-color: transparent;
+  &.active {
+    color: #fff;
+    background-color: #491da0;
+  }
+}
+.link-buttons {
+  background: none;
+  border: 0;
+  font-weight: 400;
+  color: #798993;
+}
+
+.reset:active {
+  background-color: #d8d5d5;
+}
+
+.apply:active {
+  background-color: #ea2144;
+}
+
+.skip-page {
+  .link-buttons {
+    color: #cccccc;
+  }
+}
+.social-button {
+  width: 200px;
+  height: 35px;
+  margin: 0 auto;
+  a {
+    display: inline-block;
+    padding: 6px 0 8px 15px;
+    color: #fff;
+    font-size: 16px;
+
+    &.anchor_Google{
+      padding-left: 12px !important;
+    }
+  }
+  img {
+    height: 20px;
+  }
+}
+
+.Facebook{
+  @extend .social-button;
+  background: #3c5a98;
+  margin-bottom: 20px;
+}
+
+.Google {
+  @extend .social-button;
+  background: #ea4335;
+}

@@ -1,0 +1,55 @@
+.tab-section {
+  .ReactTabs__TabList {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+
+    h2 {
+      font-size: 13px;
+      color: #798993;
+    }
+
+    .ReactTabs__Tab {
+      flex: 1;
+      cursor: pointer;
+      text-align: center;
+      color: #798993;
+      font-size: 13px;
+      font-weight: 400;
+      bottom: 0;
+      border: 0;
+      border-radius: 0;
+      padding: 0;
+      width: 50%;
+      .ripple {
+        padding: 11px 15px;
+      }
+      &.ReactTabs__Tab--selected {
+        color: #fff;
+        background-color: #670edb;
+        h2 {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .badge {
+    padding: 3px;
+    color: #fff;
+    font-size: 10px;
+    border-radius: 50px;
+    background-color: #29d4b6;
+    display: inline-block;
+    min-width: 20px;
+    text-align: center;
+  }
+
+  &.single-tab-item .ReactTabs__Tab {
+    width: 100%;
+  }
+}

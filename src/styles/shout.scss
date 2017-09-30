@@ -1,0 +1,86 @@
+// Styling for shout list modal
+.shout-list-modal {
+  text-align: center;
+  //max-height: 450px;
+  height: 75%;
+  padding: 25px 0;
+  background-image: url('../public/shout-background.png');
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: 18%;
+  h2 {
+    color: #000;
+    font-size: 20px;
+  }
+  ul {
+    overflow-y: scroll;
+    max-height: 90%;
+  }
+  li {
+    height: 50px;
+    width: 160px;
+    color: #fff;
+    border-radius: 35px;
+    position: relative;
+    padding: 10px 15px;
+    margin: 20px auto 0;
+    text-transform: uppercase;
+    text-align: left;
+  }
+  i.icon-promo {
+    position: relative;
+    left: 0;
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 15px;
+    margin-right: 7px;
+  }
+  .icon-promo:before {
+    position: absolute;
+    top: 6px;
+    left: 5px
+  }
+}
+
+.shout-success + .shout-list-modal {
+  display: none;
+}
+.shout-success {
+  height: 100%;
+  background-image: url('../public/shout-background.png');
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: 18%;
+  display: table;
+  width: 100%;
+  text-align: center;
+  div {
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 500;
+  }
+  .icon-promo {
+    position: absolute;
+    left: 40%;
+    background: #fff;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 7px;
+    color: red;
+    font-size: 30px;
+    top: calc(50% - 110px)
+  }
+  .icon-promo:before {
+    content: "\E917";
+    position: absolute;
+    top: 22px;
+    left: 20px;
+  }
+}

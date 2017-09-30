@@ -1,0 +1,23 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "web",
+      "site": "https://www.voot.com/"
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.tv.v18.viola",
+      "sha256_cert_fingerprints": [
+        "12:80:98:E9:78:A6:14:36:8A:7B:B5:99:0C:A8:57:37:E2:FD:4B:EF:5A:D5:81:91:F4:12:7D:41:EF:18:76:4B"
+      ]
+    }
+  }
+]

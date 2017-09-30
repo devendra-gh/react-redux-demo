@@ -1,0 +1,101 @@
+.static-pages{
+  display: block;
+  .static-pages-hdr{
+    //padding: 20px 0 0;
+    //background: #401F80;
+    //line-height: 24px;
+    .sbuName {
+      font-size: 15px;
+      padding-left: 30px;
+    }
+
+    ul{
+      font-size: 12px;
+      color: #73767c;
+    }
+    ol {
+      //padding-left: 20px;
+      font-size: 12px;
+      color: #73767c;
+    }
+    .container{
+      margin-right: auto;
+      margin-left: auto;
+      padding-right: 22px;
+      padding-left: 22px;
+      .row{
+        margin-right: -6px;
+        margin-left: -6px;
+        .font-upcase {
+          text-transform: uppercase;
+        }
+        .text-center {
+          text-align: center;
+        }
+        h3 {
+          padding-bottom: 25px;
+          color: #EDEAF3;
+          line-height: 33px;
+        }
+        i{
+          color: #EDEAF3;
+        }
+      }
+    }
+  }
+  section.static-content {
+    padding: 0 10px 40px;
+    position: relative;
+    a {
+      color: #401f80;
+    }
+    .container{
+      //padding-right: 22px;
+      //padding-left: 22px;
+      //margin-right: auto;
+      //margin-left: auto;
+      p{
+        color: #73767c;
+        text-align: justify;
+        line-height: 24px;
+        margin: 10px 0 0;
+        font-size: 12px;
+      }
+      h4{
+        color: #272c31;
+        font-size: 16px;
+        letter-spacing: .5px;
+        padding: 0 0 0 10px;
+        border-left: 7px solid #0ed8b8;
+        font-weight: 500;
+      }
+      h6{
+        color: #272c31;
+        margin: 0;
+        font-size: 14px;
+        margin-top: 30px;
+        font-weight: 500;
+      }
+      p.txt-head {
+        color: #272c31;
+        text-transform: uppercase;
+        font-size: 14px;
+        padding: 20px 0 0;
+      }
+      a {
+        outline: 0;
+        text-decoration: none;
+        color: #401f80;
+      }
+      ul{
+        font-size: 12px;
+        color: #73767c;
+      }
+      ol {
+        //padding-left: 20px;
+        font-size: 12px;
+        color: #73767c;
+      }
+    }
+  }
+}

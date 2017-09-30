@@ -1,0 +1,209 @@
+/*[class^="sprite-"], [class*=" sprite-"] {
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: middle;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('../public/sprite.png');
+  background-repeat: no-repeat;
+}*/
+
+
+.txt-center {
+  text-align: center;
+}
+
+.ripple {
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+}
+
+.section {
+  padding: 15px 0;
+}
+
+.home-page {
+  border-top: 3px solid #ff254b;
+  //padding-bottom: 15px;
+  &.home-bg {
+    background-image: url('../public/dot-pattern.png');
+    background-position: 0 0;
+    background-repeat: repeat;
+  }
+}
+
+.channel-container {
+  border-top: 3px solid #ff254b;
+}
+
+.img-circle {
+  border-radius: 50%
+}
+
+.text-danger {
+  color: red;
+}
+
+.ReactModal__Overlay--after-open .container {
+  overflow: auto;
+  position: static;
+}
+
+.toggleButton {
+  text-align: center;
+  margin: 10px 0 15px;
+  .icon-down, .icon-up {
+    font-size: 6px;
+    color: #8b99a1;
+  }
+}
+.player-section {
+  position: relative;
+  .placeholder-image {
+    display: block;
+    width: 100%;
+  }
+}
+.player-wrapper {
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  top:0;
+  left: 0;
+  z-index: 1;
+}
+#kaltura_player {
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+}
+.watermark {
+  z-index: 9;
+}
+
+.body-fixed{
+  position: fixed;
+  overflow: hidden;
+}
+
+.figure-block {
+  position: relative;
+
+  .figure {
+    position: relative;
+    /*overflow: hidden;*/
+  }
+
+  .placeholder-image {
+    position: relative;
+    width: 100%;
+    display: block;
+  }
+
+  .original-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .hide-image {
+    display: none;
+  }
+}
+
+.lazyload-placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.tvSeriesMastHead, .vootOriginalsMastHead {
+  .play-btn {
+    display: none;
+  }
+}
+
+.channels, .kidsCharacters, .channel-container .grid-container {
+  .placeholder-image {
+    opacity: 0;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  }
+}
+
+.color-seprator-blue {
+  color: #7e0dff;
+}
+
+.color-seprator-pink {
+  color: #f942a1;
+}
+
+.color-seprator-purple {
+  color: #0095ff;
+}
+
+.color-seprator-orange {
+  color: #fd9300;
+}
+
+.color-seprator-green {
+  color: #29d3b6;
+}
+
+.margin-t15{
+  margin-top: 15px;
+}
+
+.all-shows-carousel {
+  background-color: #f2f2f2;
+}
+
+.load-more-pagination{
+  background-color: white !important;
+  background-image: none !important;
+  padding-bottom: 15px;
+}
+
+iframe[name='google_conversion_frame'] {
+  display: none;
+}
+
+.ab-page-blocker, .ab-centering-div {
+  display: none;
+}
+
+
+header {
+  min-height: 40px;
+  position: relative;
+  background-color: #401f80;
+  .header-wrapper{
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #401f80;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    &.sticky-header {
+      top: auto;
+      -moz-transform: translateY(-100%);
+      -ms-transform: translateY(-100%);
+      -o-transform: translateY(-100%);
+      -webkit-transform: translateY(-100%);
+      transform: translateY(-100%);
+    }
+  }
+}

@@ -1,0 +1,629 @@
+.tray-container {
+  padding: 5px 0;
+  position: relative;
+
+  .card-item {
+    padding: 5px 0 5px 10px;
+    cursor: hand;
+    &.item2 {
+      float: left;
+      width: 50%;
+    }
+  }
+
+  .card-holder {
+    position: relative;
+  }
+}
+
+.item-detail {
+  padding: 10px;
+  overflow: hidden;
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+
+.top-heading {
+  padding: 10px;
+  .heading-inner {
+    position: relative;
+  }
+}
+
+.tray-heading {
+  padding-left: 5px;
+  border-left: 5px solid #0096ff;
+  width: 80%;
+  display: inline-block;
+  h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    text-align: left;
+  }
+  h1 {
+    line-height: 1.4;
+  }
+  h3 {
+    padding-top: 2px;
+    display: block;
+    color: #0096ff;
+    font-size: 14px;
+    text-transform: capitalize;
+    line-height: 1;
+  }
+  h4, span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.tag-list {
+  li {
+    float: left;
+    padding: 0 5px;
+    margin-top: 5px;
+    color: #798993;
+    line-height: 0.9;
+    font-size: 11px;
+    span {
+      display: block;
+    }
+  }
+  li + li {
+    border-left: 1px solid #798993;
+  }
+  li:first-child {
+    padding-left: 0;
+  }
+}
+
+.item-detail {
+  .tag-list {
+    min-height: 28px;
+  }
+}
+
+.moviesHeroAsset, .mastHead, .moviesMastHead, .vootOriginalsMastHead, .tvSeriesMastHead, .channelMastHead, .kidsZoneMastHead {
+  padding: 0 0 15px;
+  .tray-container {
+    padding: 0 0 10px;
+    background: #f2f2f2;
+
+  }
+  .card-item {
+    padding: 0;
+  }
+  .item-detail {
+    padding-top: 15px;
+    box-shadow: none;
+    background-color: transparent;
+  }
+  h4,h1 {
+    padding: 8px 0;
+    font-size: 18px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .description-tray {
+    color: #798993;
+    margin-top: 8px;
+  }
+}
+
+.description-tray {
+  font-size: 11px;
+}
+
+.shows-landing {
+  border-top: 3px solid #ff254b;
+  .tray-container {
+    padding-top: 0;
+    padding-bottom: 0;
+    background: transparent;
+  }
+  .ReactTabs {
+    .item-detail {
+      height: 80px;
+    }
+  }
+  .slick-slide {
+    .item-detail {
+      height: 105px;
+    }
+  }
+}
+
+.celebritySpotlight {
+  .tray-container {
+    background-color: #e6e6e6;
+    .card-item {
+      padding: 5px 10px;
+    }
+  }
+
+  .parent-card {
+    .slider-item {
+      padding: 10px;
+    }
+    .item-detail {
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      width: 100%;
+      background-color: transparent;
+      box-shadow: none;
+      &:before {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        content: '';
+        z-index: 1;
+        background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#a6000000', GradientType=0); /* IE6-9 */
+      }
+      h4, .tag-list li {
+        color: #fff;
+      }
+      .tag-list li {
+        border-color: #fff;
+      }
+      h4, .tag-list {
+        position: relative;
+        z-index: 1;
+      }
+    }
+  }
+
+  .sub-card-holder {
+    margin: 0 -5px;
+    .card-item {
+      padding: 10px 5px 0;
+    }
+    .tag-list li:first-child {
+      display: none;
+    }
+    .tag-list li:last-child {
+      border-left: 0;
+      padding-left: 0;
+    }
+  }
+  h4 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .slick-prev {
+    left: 10px;
+  }
+  .slick-next {
+    right: 10px;
+  }
+  .slick-prev, .slick-next {
+    margin-top: -71px
+  }
+  .view-all {
+    display: none;
+  }
+}
+
+.vootOriginalHeroAsset, .tvSeriesHeroAsset {
+  padding-top: 0;
+  padding-bottom: 10px;
+  .tray-container {
+    background: #f2f2f2;
+    padding-bottom: 10px;
+  }
+  .item-detail {
+    padding-bottom: 0;
+    box-shadow: none;
+    background-color: transparent;
+  }
+  h4 {
+    padding: 8px 0;
+    font-size: 18px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  h2 {
+    font-weight: 500;
+  }
+}
+
+.kidsCharacters {
+  .play-btn {
+    display: none;
+  }
+  .tray-heading {
+    border-color: #fa42a2;
+  }
+  .item-detail {
+    box-shadow: none;
+    text-align: center;
+    background-color: transparent;
+  }
+  .figure-block {
+    .figure {
+      border-radius: 50%;
+      background-position: center center;
+      background-repeat: repeat;
+      background-size: cover;
+    }
+  }
+  .item-pink .figure {
+    background-color: #ff1c76;
+    background-image: url('../public/pattern-pink.png');
+  }
+  .item-purple .figure {
+    background-color: #7f0dff;
+    background-image: url('../public/pattern-purple.png');
+  }
+  .item-orange .figure {
+    background-color: #ff8622;
+    background-image: url('../public/pattern-orange.png');
+  }
+  .item-green .figure {
+    background-color: #01c7a4;
+    background-image: url('../public/pattern-green.png');
+  }
+}
+
+.vootOriginalVideos, .kidsCharacters {
+  h4 {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+}
+
+.featuredVideos {
+  .item-detail {
+    min-height: 100px;
+  }
+}
+
+.kidsVideos {
+  .item-detail {
+    /*min-height: 75px;*/
+  }
+}
+
+.overlay-item, .bingeWatch .item-detail, .vootOriginalSeries .item-detail {
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  width: 100%;
+  padding: 7px 10px;
+  box-shadow: none;
+  background-color: transparent;
+
+  &:before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    content: '';
+    z-index: 1;
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#a6000000', GradientType=0); /* IE6-9 */
+  }
+
+  h4 {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-weight: 400;
+  }
+}
+
+.featuredVideos, .tvSeriesGrid, .kidsVideos {
+  h4 {
+    min-height: 38px;
+  }
+}
+
+.moviesHeroAsset, .vootShorts, .discover, .featuredMovies, .celebritySpotlight, .vootCatchups, .popularShows, .bingeWatch, .featuredVideos, .channels, .tvSeriesGrid, .vootOriginalVideos, .vootOriginalSeries, .mastHead, .moviesMastHead, .vootOriginalsMastHead, .tvSeriesMastHead, .channelMastHead, .kidsZoneMastHead {
+  background-color: #fff;
+}
+// hidden for now as per the current discussion Smriti
+.vootShorts {
+  .view-all {
+    display: none;
+  }
+}
+
+.vootCatchups {
+  h4 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.kidsClusters {
+  .tray-heading {
+    span {
+      display: none;
+    }
+  }
+  h4 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.vootOriginalSeries {
+  .tray-heading {
+    border-color: #fa42a2;
+  }
+
+  .slider-grid-col {
+    width: 50%;
+    float: left;
+    .card-item + .card-item {
+      margin-top: -4px;
+    }
+  }
+
+  .play-btn {
+    display: none;
+  }
+
+}
+
+.vootShorts {
+
+  .parent-card .figure-block {
+    position: relative;
+    &:before {
+      position: absolute;
+      content: '';
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 50%;
+      z-index: 1;
+      background: rgba(98,125,77,0);
+      background: -moz-linear-gradient(top, rgba(98,125,77,0) 0%, rgba(255,255,255,1) 100%);
+      background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(98,125,77,0)), color-stop(100%, rgba(255,255,255,1)));
+      background: -webkit-linear-gradient(top, rgba(98,125,77,0) 0%, rgba(255,255,255,1) 100%);
+      background: -o-linear-gradient(top, rgba(98,125,77,0) 0%, rgba(255,255,255,1) 100%);
+      background: -ms-linear-gradient(top, rgba(98,125,77,0) 0%, rgba(255,255,255,1) 100%);
+      background: linear-gradient(to bottom, rgba(98,125,77,0) 0%, rgba(255,255,255,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#627d4d', endColorstr='#ffffff', GradientType=0 );
+    }
+  }
+
+  .card-item {
+    padding: 0;
+  }
+  .parent-card {
+    .item-detail {
+      display: none;
+    }
+  }
+  .sub-card-holder {
+    margin-top: -55px;
+    z-index: 9;
+    position: relative;
+    .card-item {
+      padding: 5px 0 5px 10px;
+      /*box-shadow: 6px 3px 20px 0 rgba(250, 250, 250, 0.5);*/
+    }
+  }
+  .slick-next, .slick-prev {
+    margin-top: -63px;
+  }
+
+  .tag-list li {
+    padding-left: 0;
+    border-left: 0 none;
+    &:first-child {
+      display: none;
+    }
+  }
+}
+
+.bingeWatch {
+  .tray-heading {
+    border-color: #401f80;
+    h3 {
+      color: #401f80;
+    }
+  }
+}
+
+.tvSeriesGrid {
+  .tray-heading {
+    border-color: #FF1C47;
+  }
+  .item-detail {
+    min-height: 85px;
+  }
+}
+
+.featuredVideos {
+  .tray-heading {
+    border-color: #29d4b6;
+  }
+}
+
+.popularShows {
+  .tray-heading {
+    border-color: #fa42a2;
+  }
+}
+
+.celebritySpotlight, .vootShorts {
+  .tray-heading {
+    border-color: #ff254b;
+  }
+}
+
+.section.channels + .section.featuredVideos {
+  .tray-heading {
+    border-color: #ff254b;
+  }
+}
+
+.featuredMovies {
+  .tray-heading {
+    border-color: #fe9400;
+  }
+}
+
+.kidsClusters {
+  .tray-heading {
+    border-color: #401f80;
+  }
+}
+
+.kidsMovies, .kids-all-episodes-container {
+  .tray-heading {
+    border-color: #fe9400;
+  }
+}
+
+.kidsClusters, .popularShows {
+  .play-btn {
+    display: none;
+  }
+}
+
+//styling for my voot page
+.langauges {
+  li {
+    width: 33%;
+    margin: 3px;
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block;
+  }
+}
+
+// Styling of rectangular card section
+.card-rectangular {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  margin: 25px 10px;
+  display: table;
+  h4 {
+    min-height: 32px;
+  }
+  figure {
+    width: 40%;
+    display: table-cell;
+  }
+  .item-detail {
+    display: table-cell;
+    vertical-align: middle;
+    box-shadow: none;
+    .tag-list {
+      min-height: inherit;
+    }
+  }
+  .current-video {
+    position: relative;
+    &:before {
+      position: absolute;
+      content: '';
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(64, 31, 104, 0.7);
+      z-index: 1;
+    }
+    &:after {
+      margin: auto;
+      position: absolute;
+      top: 28%;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      content: 'NOW PLAYING';
+      text-align: center;
+      font-size: 14px;
+      color: #fff;
+      font-weight: 400;
+      z-index: 1;
+      width: 85px;
+    }
+  }
+}
+
+.playlist-section {
+  .card-rectangular {
+    margin: 0;
+  }
+  #current-video-holder, .card-item {
+    margin: 25px 10px;
+  }
+
+}
+
+.kidsClusters, .tvSeriesGrid, .featuredVideos, .featuredVideos,
+.bingeWatch, .kidsCharacters, .kidsVideos {
+  /*.tray-container {
+    padding-left: 5px;
+    padding-right: 5px;
+  }*/
+}
+
+.all-shows-carousel {
+  .tray-container {
+    padding: 5px;
+    .card-item {
+      padding: 5px;
+      .item-detail {
+        h4 {
+          min-height: 32px;
+        }
+        height: 80px;
+      }
+    }
+  }
+}
+
+.empty-tray {
+  min-height: 300px;
+  background-color: #f2f2f2;
+}
+
+.vootOriginalVideos, .popularShows, .celebritySpotlight,
+.vootShorts, .kidsVideos, .vootCatchups {
+  .tag-list {
+    min-height: inherit;
+  }
+}
+.kidsZoneMastHead {
+  .placeholder-image {
+    opacity: 0;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  }
+}
+
+.season-landing {
+  .tray-container {
+    padding: 0;
+  }
+}
+.sub-card-holder {
+  h4 {
+    height: 30px;
+  }
+}
+

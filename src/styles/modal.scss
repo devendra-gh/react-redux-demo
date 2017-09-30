@@ -1,0 +1,58 @@
+.modal-close {
+  position: absolute;
+  top: -45px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  border: 0;
+  background-color: #798993;
+  i {
+    color: #fff;
+    font-size: 13px;
+    position: relative;
+    top: -1px;
+  }
+}
+
+.share-modal {
+  text-align: center;
+  max-height: 500px;
+  padding: 25px 0;
+  min-height: 150px;
+  .modal-close i {
+    top: -7px;
+    right: 1px;
+  }
+  h2 {
+    color: #000;
+    font-size: 20px;
+  }
+  .page-url {
+    margin: 25px 0 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    width: 90%;
+    color: #819099;
+    padding: 0 25px;
+  }
+  .lrshare_iconsprite32  {
+    border-radius: 50%;
+    margin: 0 10px;
+  }
+  lr{
+    display: inline-block;
+    float: none !important;
+  }
+  lrc {
+    margin: 0px 5px;
+  }
+  .lrshare_evenmore32, .lrshare_sharingcounter32  {
+    margin: 0 15px;
+    display: none;
+  }
+}

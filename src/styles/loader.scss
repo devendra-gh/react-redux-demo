@@ -1,0 +1,41 @@
+.loader-block {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, .8);
+  z-index: 9999;
+  /*top: 100px;*/
+  /*width: 100%;*/
+  /*height: calc(100% - 472px);*/
+
+  .loader {
+    margin: auto;
+    width: 90px;
+    height: 90px;
+    background-image: url(../public/default-loader.gif);
+    background-size: contain;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+}
+
+.small-loader {
+  background-image: url(../public/ajax-loader.gif);
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  -webkit-transform: translate(-50%, 0%);
+  -moz-transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
+}

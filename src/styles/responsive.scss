@@ -1,0 +1,13 @@
+@media only screen and (max-device-width: 360px) and (orientation: portrait) {
+  .tray-heading {
+    h4 {
+      font-size: 16px;
+    }
+    .most-popular-btn {
+      font-size: 12px;
+    }
+  }
+  .order-filter {
+    top: -1px;
+  }
+}

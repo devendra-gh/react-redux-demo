@@ -1,0 +1,49 @@
+.channel-container {
+  padding: 10px 0;
+  .grid-container {
+    .figure-block {
+      padding: 10px;
+    }
+  }
+}
+
+.sbuName-section {
+  height: 40px;
+  position: relative;
+  text-align: center;
+  background-color: #401f80;
+  border-bottom: 3px solid #ff254b;
+  .left-arrow {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .sbuName {
+    margin: 0;
+    display: inline-block;
+    line-height: 30px;
+    color: #fff;
+    padding: 5px 15px;
+    font-weight: 400;
+    font-size: 16px;
+  }
+}
+
+.channel-landing {
+  .episode-video {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .grid-container {
+    .grid-shows h4 {
+      min-height: 32px;
+    }
+    .item-detail {
+      min-height: 105px;
+    }
+  }
+}

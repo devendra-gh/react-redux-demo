@@ -1,0 +1,235 @@
+.kids-collection-page {
+  padding-bottom: 10px;
+
+  .grid-container {
+    .grid-view {
+      float: none;
+
+      & figure {
+        background: none;
+        img {
+          /*width: calc(100% + 20px);
+          margin-left: -10px;*/
+        }
+      }
+    }
+  }
+}
+
+.kids-page {
+  /*min-height: 500px;*/
+  border-top: 3px solid #ff254b;
+  .kidsZoneMastHead {
+    figure {
+      background: none;
+    }
+    .tray-container {
+      border: 8px solid #e6e6e6;
+    }
+    .slick-next, .slick-prev {
+      margin-top: -50px;
+    }
+  }
+
+  .grid-container {
+    .grid-view {
+      float: none;
+
+      & figure {
+        background: none;
+      }
+    }
+  }
+
+  .grid-container-shows {
+    padding: 5px;
+    .grid-view {
+      padding: 5px;
+      float: left;
+    }
+    .grid-channel {
+      padding: 5px;
+      float: left;
+      width: 33.33%;
+      figure {
+        padding: 25px 0;
+        background: none;
+      }
+      .card-holder {
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+      }
+      .item-detail {
+        padding-top: 0;
+        box-shadow: none;
+        h4 {
+          padding-top: 10px;
+          border-top: 2px solid #f2f2f2;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          color: #848484;
+        }
+      }
+    }
+    figure {
+      position: relative;
+      background-color: #f2f2f2;
+      img {
+        width: 100%;
+        display: block;
+        margin: auto;
+      }
+    }
+    .episode-video {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 5px 25px 5px 15px;
+      display: inline-block;
+      color: #272c31;
+      font-weight: 400;
+      font-size: 11px;
+      border-radius: 0 30px 0 0;
+      background-color: #f2f2f2;
+    }
+  }
+
+  .view-all-collection-h4 {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+
+    & .view-all-collection {
+      top: 50%;
+      margin-top: 0;
+      right: 0;
+      border-radius: 15px;
+      display: inline-block;
+      color: #fff;
+      background-color: #ff254b;
+      font-size: 10px;
+      .ripple {
+        padding: 6px 20px;
+      }
+      span {
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 9px;
+        color: #fff;
+      }
+      i {
+        font-size: 10px;
+      }
+      &:active {
+        background-color: #cc1e3c;
+      }
+    }
+  }
+}
+
+.view-all-kids-shows-page{
+  padding-bottom: 10px;
+}
+.kids-all-episodes-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.more-kids-shows-container, .more-kids-clusters-container {
+  .item-detail {
+    /*height: 60px !important;*/
+  }
+}
+
+.kids-video {
+  .section {
+    background-color: transparent !important;
+  }
+}
+
+.kids-related-media-section {
+  .slick-initialized .slick-slide {
+    padding: 5px;
+  }
+  .tray-container {
+    padding: 5px 5px;
+  }
+}
+
+#cluster-player-page .current-video {
+  .card-holder {
+    display: table;
+  }
+  .figure-block {
+    position: relative;
+    &:before {
+      position: absolute;
+      content: '';
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(64, 31, 104, 0.7);
+      z-index: 1;
+    }
+
+    &:after {
+      margin: auto;
+      position: absolute;
+      top: 28%;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      content: 'NOW PLAYING';
+      text-align: center;
+      font-size: 14px;
+      color: #fff;
+      font-weight: 400;
+      z-index: 1;
+      width: 85px;
+    }
+  }
+}
+
+.more-kids-shows-container .tray-container .item-detail {
+  height: 50px !important;
+}
+
+.more-kids-clusters-container .tray-container .item-detail {
+  height: 50px !important;
+}
+
+.more-kids-clusters-container .placeholder-image {
+  opacity: 0;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+}
+
+.kids-page, .view-all-kids-shows-page, .kids-related-media-section {
+  .kidsCharacters {
+    figure {
+      background-color: transparent !important;
+    }
+    .item-detail h4 {
+       white-space: inherit !important;
+      text-overflow: inherit !important;
+      overflow: inherit !important;
+    }
+  }
+}
+
+.kids-original-image{
+  background-image: url('../public/pattern-green.png');
+  background-color: #01c7a4;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+
+.kidsZoneClusters, .kidsClusters {
+  .placeholder-image {
+    opacity: 0;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  }
+}

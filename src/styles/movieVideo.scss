@@ -1,0 +1,161 @@
+.movie-video, .shows-video, .kids-video {
+  .slick-list {
+    .item-detail {
+      height: 50px;
+    }
+  }
+  .tags-section {
+    //color: #ff254b;
+    font-size: 11px;
+    padding-top: 10px;
+    > span {
+      font-weight: 400;
+      vertical-align: text-bottom;
+    }
+  }
+  .meta-desc {
+    padding: 10px;
+    .tag-list {
+      padding: 10px 0;
+    }
+    h4 {
+      font-size: 18px;
+      font-weight: 400;
+    }
+    .tags-section {
+      color: #ff254b;
+      padding: 10px 0;
+    }
+    .tag-list li span {
+      font-weight: 400;
+    }
+    .description-tray {
+      color: #8b99a1;
+    }
+  }
+  .meta-desc {
+    .tag-list {
+      padding: 0;
+      display: inline-block;
+    }
+  }
+  .toggleButton.i-down {
+    .icon-down {
+      display: block;
+    }
+    .icon-up {
+      display: none
+    }
+  }
+  .toggleButton.i-up {
+    .icon-down {
+      display: none;
+    }
+    .icon-up {
+      display: block
+    }
+  }
+}
+.shows-video, .kids-video {
+  h1  {
+    font-size: 14px;
+    display: block;
+    width: auto;
+    font-weight: 400;
+    padding: 0 0 10px;
+  }
+}
+.movie-video {
+  h1 {
+    margin-bottom: 10px;
+  }
+  .tag-list {
+    .tag-list span{
+      color: #ff254b;
+    }
+    .hidden-data {
+      margin-top: 10px;
+    }
+  }
+  .tag-list li + li {
+    border-color: #ff254b;
+  }
+  .meta-desc {
+    padding: 20px 10px 10px;
+  }
+}
+.tags-section {
+  .tag-list li {
+    color: #ff254b;
+  }
+  .tag-list li + li {
+    border-left: 1px solid #ff254b;
+  }
+}
+
+.playlist-section {
+  height: 300px;
+  overflow-y: scroll;
+  margin-bottom: 5%;
+}
+.hidden-data {
+  height: auto;
+  max-height: 30px;
+  transition: max-height 0.15s ease-out;
+  overflow: hidden;
+  position: relative;
+  clear: both;
+
+}
+.hidden-data.show-data {
+  max-height: 1000px;
+  transition: max-height 0.25s ease-in;
+}
+
+.playlist-section {
+  .tag-list li {
+    color: #798993;
+  }
+  .tag-list li + li {
+    border-color: #798993;
+  }
+}
+
+.movie-social {
+  float: right;
+  .icon-share, .icon-promo {
+    color: #909DA5;
+    margin: 0 10px;
+    font-size: 16px;
+  }
+}
+
+.social-right {
+  float: right;
+  width: 20%;
+  text-align: right;
+  margin-top: 5px;
+  .ripple {
+    display: inline-block;
+  }
+  .follow-name {
+    display: none;
+  }
+  .follow-module {
+    display: inline-block;
+    padding: 0 15px 0 0;
+  }
+  .share-show {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+    i {
+      color: #909da5;
+      width: 25px;
+      height: 25px;
+      display: inline-block;
+      line-height: 1.5;
+    }
+  }
+}

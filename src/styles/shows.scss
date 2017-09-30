@@ -1,0 +1,240 @@
+.grid-container {
+  padding: 5px;
+  .grid-view {
+    padding: 5px;
+    float: left;
+  }
+  .grid-channel {
+    padding: 5px;
+    float: left;
+    width: 33.33%;
+    figure {
+      background: none;
+    }
+    .card-holder {
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    }
+    .item-detail {
+      padding-top: 0;
+      box-shadow: none;
+      position: relative;
+      h4 {
+        padding-top: 10px;
+        border-top: 2px solid #f2f2f2;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        color: #848484;
+      }
+    }
+  }
+  figure {
+    position: relative;
+    background-color: #f2f2f2;
+    img {
+      width: 100%;
+      display: block;
+      margin: auto;
+    }
+  }
+  .episode-video {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px 25px 5px 15px;
+    display: inline-block;
+    color: #272c31;
+    font-weight: 400;
+    border-radius: 0 30px 0 0;
+    background-color: #f2f2f2;
+    font-size: 11px;
+  }
+}
+
+.order-filter {
+  position: absolute;
+  right: 0;
+  top: -1px;
+  padding: 2px;
+  border: 1px solid #dbd8d8;
+  border-radius: 20px;
+}
+
+.filter-center {
+  text-align: center;
+  padding: 0 10px;
+  .section {
+    padding-bottom: 5px;
+  }
+  .order-filter {
+    position: static;
+    display: inline-block;
+  }
+}
+
+.most-popular-btn {
+  padding: 2px 10px;
+  border: 0;
+  border-radius: 20px;
+  background-color: #fff;
+  font-size: 12px;
+  &.active {
+    color: #fff;
+    background-color: #401f80;
+  }
+}
+
+.sorting-btn {
+  padding: 5px 20px;
+  min-width: 100px;
+  text-align: center;
+  border: 0;
+  background-color: transparent;
+}
+
+.locale-filter-btn {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #ff244a;
+  z-index: 9;
+  border: 0;
+  display: none;
+}
+.language-list .locale-filter-btn {
+  display: block !important;
+}
+.load-more {
+  padding: 5px 40px;
+  display: inline-block;
+  color: #fff;
+  border: 0;
+  border-radius: 15px;
+  background-color: #ff254b;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.default-color {
+  border-left-color: #fa42a2;
+}
+
+.grid-2 {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.grid-shows {
+  h4 {
+    min-height: 32px;
+  }
+}
+
+.strong {
+  font-weight: 500;
+}
+
+.color-red {
+  color: red;
+}
+
+.shows-shout {
+  text-align: center;
+  .shout-count {
+    font-size: 12px;
+    color: #8b99a1;
+    font-weight: bold;
+    display: block;
+  }
+  .popular-shout {
+    span {
+      display: block;
+      text-transform: uppercase;
+      vertical-align: middle;
+      font-size: 12px;
+    }
+    .left-align-content {
+      text-align: left;
+      margin-left: 50px;
+      .shout-name {
+        font-size: 18px;
+        font-weight: 500;
+        //margin-left: 20px;
+        display: block;
+      }
+    }
+    height: 55px;
+    text-align: center;
+    color: #fff;
+    border-radius: 35px;
+    position: relative;
+    padding: 7px 20px 7px 0;
+    margin: 20px auto 5px;
+    display: inline-block;
+  }
+
+  .icon-promo {
+    position: absolute;
+    left: 12px;
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 15px;
+    margin-right: 7px;
+    top: 12px;
+  }
+  .icon-promo:before {
+    position: absolute;
+    top: 6px;
+    left: 5px
+  }
+}
+
+.tags-social-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: left;
+  width: 80%;
+  span {
+    color: #ff254b;
+  }
+  .tag-list li + li {
+    border-color: #ff254b;
+  }
+
+  & .display-tags {
+    width: 70%;
+    display: inline-block;
+  }
+
+  & .like-show, .share-show {
+    width: 15%;
+    display: inline-block;
+    text-align: center;
+
+    & i {
+      color: #798993;
+    }
+  }
+}
+
+.show-list .grid-container {
+  .item-detail {
+    height: 115px;
+  }
+}
+
+.box-container{
+  margin: 13px;
+  box-shadow: 1px 1px 11px #888888;
+}
